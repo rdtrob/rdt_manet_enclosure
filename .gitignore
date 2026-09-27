@@ -1,23 +1,144 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
+# =====================================================================
+# Secrets, keys and credentials — NEVER commit these
+# =====================================================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.csr
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.gpg
+*.asc
+*.kdbx
+id_rsa*
+id_ed25519*
+id_ecdsa*
+*.pub
+known_hosts
+authorized_keys
+secrets/
+credentials/
+*secret*
+*password*
+*token*
+
+# Network / mesh configuration that may contain PSKs, SAE passwords,
+# WireGuard private keys, mesh IDs or site-specific addressing
+wpa_supplicant*.conf
+hostapd*.conf
+*.psk
+wg*.conf
+wireguard/
+*.nmconnection
+batman*.conf
+mesh*.conf
+alfred*.conf
+*.ovpn
+
+# Device images and dumps (can contain credentials, keys, MACs, serials)
+*.img
+*.img.xz
+*.img.gz
+*.iso
+*.bin
+*.dump
+*.pcap
+*.pcapng
+*.cap
+
+# Logs
+*.log
+logs/
+
+# =====================================================================
+# 3D printing / slicer output (printer-specific, regenerate from STL)
+# =====================================================================
+*.gcode
+*.gco
+*.g
+*.bgcode
+*.ufp
+*.x3g
+*.makerbot
+# Slicer project files often embed printer profiles, network printer
+# addresses and access codes; keep them out unless deliberately shared
+*.curaproject.3mf
+*.orca_printer
+*.orca_filament
+
+# =====================================================================
+# CAD temporary / backup files
+# =====================================================================
+# FreeCAD
+*.FCStd1
+*.FCBak
+# Fusion 360 / Autodesk
+*.f3d.bak
+~$*
+# SolidWorks
+~$*.SLDPRT
+~$*.SLDASM
+# KiCad (if wiring diagrams are added)
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+fp-info-cache
+# OpenSCAD
+*.scad.bak
+# Blender
+*.blend1
+*.blend2
+# Generic
+*.bak
+*.orig
+*.tmp
+*.swp
+*~
+
+# =====================================================================
+# Photos with metadata — strip EXIF (GPS!) before committing images
+# Raw camera files are ignored outright
+# =====================================================================
+*.cr2
+*.cr3
+*.nef
+*.arw
+*.dng
+*.heic
+
+# =====================================================================
+# OS files
+# =====================================================================
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+.directory
+
+# =====================================================================
+# Editors / IDEs
+# =====================================================================
 .vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-files
-*.bclicense
-*.flf
-#Test results file
-TestResults.xml
+.idea/
+*.sublime-workspace
+.project
+.settings/
+
+# =====================================================================
+# Archives (usually build artifacts or accidental uploads)
+# =====================================================================
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
