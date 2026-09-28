@@ -1,6 +1,6 @@
 # RDT MANET Radio Enclosure
 
-A 3D-printable, weather-resistant enclosure for a portable mesh radio node built around the Raspberry Pi Compute Module 4, a Waveshare Mini Base Board (A), a MediaTek MT7916 Wi-Fi 6E card and a Morse Micro MM8108 Wi-Fi HaLow board.
+A 3D-printable, weather-resistant and waterproof enclosure for a portable mesh radio node built around the Raspberry Pi Compute Module 4, Waveshare Mini Base Board (A), MediaTek MT7916 Wi-Fi 6E card and a Morse Micro MM8108 Wi-Fi HaLow board.
 
 The enclosure was designed for the [very-srs/MANET](https://github.com/very-srs/MANET) project, and it also fits hardware deployments of [OpenMANET](https://github.com/openmanet).
 
@@ -34,16 +34,16 @@ The enclosure was designed for the [very-srs/MANET](https://github.com/very-srs/
 This repository contains the printable parts (STL) for a self-contained MANET radio node. The enclosure houses:
 
 - a **Raspberry Pi CM4** on a **Waveshare Mini Base Board (A)** carrier,
-- an **MT7916 Wi-Fi 6E M.2 A/E-key card**, mounted in the carrier's M.2 M-key slot through an **M.2 M-key → A/E-key adapter**,
+- an **MT7916 Wi-Fi 6E M.2 A/E-key card**, mounted in the carrier's M.2 M-key slot through an **M.2 M-key → A/E-key adapter (Note: Only two of the three antennas send, specifically 1 and 2, the ones on the short end of the MT7916 board. The 3rd is only receiving on 5GHz in 2T3R mode.)**,
 - a **Lunpid Morse Micro MM8108 Wi-Fi HaLow** board connected over USB-C,
 - a **Pololu D36V28F5** 5 V step-down regulator,
 
-and exposes three SMA antenna ports for the MT7916, one SMA port for the HaLow radio, a waterproof USB-C port, an M12 Ethernet port and a magnetic pogo-pin power input.
+and exposes three SMA antenna ports for the MT7916, one SMA port for the HaLow radio, a waterproof USB-C port, an M12 connector to internal Ethernet port and a magnetic pogo-pin power input.
 
 ## Features
 
 - Fully 3D-printable body, no custom PCBs required
-- 3× SMA bulkhead mounts for 2.4 / 5 / 6 GHz MIMO antennas
+- 3× SMA bulkhead mounts for 2.4 / 5 / 6 GHz MIMO antennas (Note: see reference to antenna positioning in #Overview section above, subsection MT7916)
 - 1× SMA bulkhead mount for the sub-GHz HaLow antenna
 - Waterproof panel-mount USB-C for access to the carrier board
 - M12 connector for ruggedized wired Ethernet
@@ -58,12 +58,12 @@ and exposes three SMA antenna ports for the MT7916, one SMA port for the HaLow r
 | Compute | Raspberry Pi Compute Module 4 — CM4004032 | 4 GB RAM, 32 GB eMMC, **no** onboard Wi-Fi/BT requried |
 | Carrier | Waveshare Mini Base Board (A) (CM4-IO-BASE-A) | Gigabit Ethernet, 2× USB 2.0, M.2 M-key (PCIe), 5 V USB-C input |
 | Wi-Fi 6E | AsiaRF AW7916-AED (MediaTek MT7916AN) | M.2 A/E-key, 2.4 GHz 2T2R + 5/6 GHz, 3× IPEX antenna connectors |
-| MT7916 Heatsink | Heatsink for MT7916 WiFi card |
 | M.2 adapter | M.2 M-key → M.2 A/E-key adapter | Lets the A/E-key Wi-Fi card sit in the carrier's M-key slot |
 | HaLow | Morse Micro MM8108 board | 802.11ah, connected to the carrier via USB-C |
 | Regulator | Pololu D36V28F5 | 5 V, 3.2 A step-down; wide input range |
+| Heatsink - MT7916 | Wakefield 559-50AB-ND | Heatsink for MT7916 card
 
-Other CM4 variants (different RAM/eMMC sizes) fit the same carrier. Variants **with** onboard wireless also fit, but their onboard antenna will be shielded by the enclosure and is not used.
+Other CM4 variants (different RAM/eMMC sizes) fit the same carrier. Variants **with** onboard wireless also fit, but their onboard antenna will be shielded by the enclosure and are also not used.
 
 ## Bill of Materials
 
@@ -72,16 +72,16 @@ The full parts list, with quantities and supplier links, is in **[BOM.md](BOM.md
 Summary of what you'll need beyond the printed parts:
 
 - Core electronics: CM4, carrier board, MT7916 card, M.2 adapter, MM8108 HaLow board, Pololu regulator
-- Antennas: 3× SMA (2.4/5/6 GHz) + 1× SMA adapter for HaLow
+- Antennas: 3× SMA (2.4/5/6 GHz) + 1× SMA adapter for HaLow board
 - Connectors and cables: waterproof USB-C, M12 Ethernet, magnetic pogo-pin power, USB-A to USB-C adapter, internal USB-C cables
-- Hardware: M2.5 and M3 screws, M3 nuts
+- Hardware: Heatsink, M2.5 and M3 screws, M3 nuts
 
 ## Repository Structure
 
 ```
 .
 ├── stl/              # Printable parts
-├── source/           # Editable CAD source files (STEP / native format) # To be potentially added in the future
+├── source/           # Editable CAD source files (STEP / native format) #To be potentially added in the future
 ├── images/           # Photos and renders
 ├── docs/             # Additional assembly or wiring notes
 ├── BOM.md            # Bill of materials
@@ -89,13 +89,15 @@ Summary of what you'll need beyond the printed parts:
 └── README.md
 ```
 
-<!-- TODO: adjust to match actual folder layout and list each STL with what it is -->
-
 | File | Part | Qty |
 |---|---|---|
-| `stl/TODO_body.stl` | Main body | 1 |
-| `stl/TODO_lid.stl` | Lid | 1 |
-| `stl/TODO_bracket.stl` | Internal mounting bracket | 1 |
+| `stl/Unibody.stl` | Main body  to be printed in PA6-GF | 1 |
+| `stl/TopConnectorPlate.stl` | Top I/O plate - PA6-GF | 1 |
+| `stl/BackPanel.stl` | Back panel - PA6-GF | 1 |
+| `stl/TPU_gasket_back.stl` | Back gasket to be printed in TPU | 1 |
+| `stl/TPU_gasket_top` | Top gasket - TPU | 1 |
+| `stl/Connector_MagneticPogoPIN_mount` | Pogo-pin connector mounting bracket - PA6-GF | 1 |
+| `stl/Connector_MagneticPogoPIN_TPU_gasket` | Pogo-pin connector gasket - TPU | 1 |
 
 ## Printing
 
@@ -105,15 +107,16 @@ Recommended settings (adjust for your printer):
 |---|---|
 | Material | PA6-GF or PETG-CF for enclosure and TPU for gaskets|
 | Layer height | 0.08 mm |
-| Walls / perimeters | 2 |
-| Infill | 35 % |
+| Walls / perimeters | 2 - 4 |
+| Infill | 35 %  to 45 % |
 | Supports | Default, tree |
 | Nozzle | 0.4 mm |
 
 Notes:
 - Avoid PLA for field units: it softens in direct sun and in a warm vehicle.
-- Print the body with the bottom up ( battery connector facing up ) or open side up for the cleanest sealing surface.
+- Print the body with the bottom side up ( battery connector facing upwards ) or front-facing open side up for the cleanest sealing surface.
 - Test-fit the SMA bulkheads and M12 connector before final assembly; hole tolerances vary between printers.
+- For waterproof-sealing, treat all printed components with a polimer sealant like Diamant's Dichtol AM Hydro (Note: link provided in **[BOM.md](BOM.md)**)
 
 ## Assembly
 

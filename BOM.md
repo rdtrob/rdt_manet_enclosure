@@ -38,6 +38,7 @@ Links are provided for reference only; equivalent parts from other suppliers sho
 
 | # | Name | Description | Amount | Link |
 |---|---|---|---|---|
+| 16 | Heatsink for MT7916 | Wakefield 559-50AB-ND heatsink | 1 | [Wakefield 559-50AB](https://www.digikey.com/en/products/detail/wakefield-thermal-solutions/559-50ab/5068188) |
 | 16 | M2.5 screws | TODO: length and head type | 4 | TODO |
 | 17 | M3 screws | TODO: length and head type | 16 | TODO |
 | 18 | M3 nuts | TODO: standard hex or nyloc | 2 | TODO |
@@ -48,4 +49,4 @@ Links are provided for reference only; equivalent parts from other suppliers sho
 
 - Quantities are for **one** unit.
 - Confirm antenna connector gender (SMA vs RP-SMA) matches your bulkheads before ordering.
-- If purchasing different buck board, check the input voltage range against your power source.
+- If purchasing a different buck board model, check the input voltage range against your power source.
