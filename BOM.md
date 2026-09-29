@@ -19,31 +19,39 @@ Links are provided for reference only; equivalent parts from other suppliers sho
 
 | # | Name | Description | Amount | Link |
 |---|---|---|---|---|
-| 7 | SMA antenna | 2.4 / 5 / 6 GHz antenna for the MT7916 board | 3 | TODO |
-| 8 | SMA adapter (HaLow) | SMA adapter for the MM8108 HaLow board antenna port | 1 | TODO |
+| 7 | SMA antenna | 2.4 / 5 / 6 GHz antenna for the MT7916 board | 3 | [Farnell](https://www.newark.com/siretta/delta47-smam-36/rf-antenna-600mhz-5-6ghz/dp/97AK2184) |
+| 8 | SMA antenna (HaLow) | 868 MHz SMA antenna for the Lunpid MM8108 HaLow board | 1 | [Hexaspot 868MHz gooseneck antenna](https://hexaspot.com/products/hexaspot-tactical-gooseneck-antenna-868mhz?variant=57776200810827) |
+| 9 | IPEX MHF 1 - SMA female cable assembly for MT7916 board | 3 | [TME](https://www.tme.eu/en/details/ipex-sma-150/coaxial-assemblies/onteck)
+| 10 | SMA male to SMA female adapter for the MM8108 HaLow board antenna | 1 | [AliExpress](https://www.aliexpress.com/item/1005003433705318.html) |
 
 ## Connectors and Cables
 
 | # | Name | Description | Amount | Link |
 |---|---|---|---|---|
-| 9 | Waterproof USB-C connector | Panel-mount waterproof USB-C, wired to the carrier board | 1 | [AliExpress](https://www.aliexpress.com/item/1005006218980573.html) |
-| 10 | USB-C cable & connector (Pololu → carrier) | Cable with USB-C plug carrying 5 V from the Pololu board to the carrier | 1 | [AliExpress](https://) |
-| 11 | Pololu → pogo-pin cable | Cable from the Pololu input to a 3-pin magnetic pogo-pin connector | 1 | [AliExpress](https://) |
-| 12 | Magnetic Pogo 3 Pin connector | Panel-mount circular 12mm connector, wired to the #11 cable. Connects to the off-set connector on the battery enclosure. | 1 | [AliExpress](https://www.aliexpress.com/item/1005008792560196.html#nav-specification)
-| 13 | USB-C to USB-C cable | Short cable, carrier board to MM8108 HaLow board | 1 | [AliExpress](https://) |
-| 14 | M12 connector | Panel-mount M12 connector for Ethernet. Pick Male Back M12-P-GCFM-16-NZG 8Pin variant. | 1 | [AliExpress](https://www.aliexpress.com/item/1005012293627764.html) |
-| 15 | M12 to Ethernet cable | Internal cable, M12 connector to carrier RJ45 port | 1 | [AliExpress](https://) |
+| 11 | Waterproof USB-C connector | Panel-mount waterproof USB-C, wired to the carrier board | 1 | [AliExpress](https://www.aliexpress.com/item/1005006218980573.html) |
+| 12 | USB-C cable & connector (Pololu → carrier) | Cable with USB-C plug carrying 5 V from the Pololu board to the carrier board | 1 | [AliExpress](https://www.aliexpress.com/item/1005011867528852.html?algo_exp_id=3512d09b-6d92-47c5-8030-31c9b93164dd-17&pdp_ext_f=%7B%22order%22%3A%22944%22%2C%22eval%22%3A%221%22%2C%22orig_sl_item_id%22%3A%221005011867528852%22%2C%22orig_item_id%22%3A%221005011531079663%22%2C%22fromPage%22%3A%22search%22%7D&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005011867528852%7C_p_origin_prod%3A1005011531079663) |
+| 13 | Pololu → pogo-pin cable | Cable from the Pololu input to a 3-pin magnetic pogo-pin connector | 1 | [AliExpress](N/A) |
+| 14 | Magnetic Pogo 3 Pin connector | Panel-mount circular 12mm connector, wired to the #11 cable. Connects to the off-set connector on the battery enclosure. | 1 | [AliExpress](https://www.aliexpress.com/item/1005008792560196.html#nav-specification)
+| 15 | USB-C snap connector UC1 | Snap USB-C connector, Lunpid MM8108 HaLow board | 1 | [AliExpress](https://www.aliexpress.com/item/1005008383845058.html) |
+| 15 | Ribbon cable for USB-C snap connector | Short cable, carrier board to Lunpid MM8108 HaLow USB-C snap connector | 1 | [AliExpress](https://www.aliexpress.com/item/1005008383845058.html) |
+| 16 | M12 connector | Panel-mount M12 connector for Ethernet. Pick Male Back M12-P-GCFM-16-NZG 8Pin variant. | 1 | [AliExpress](https://www.aliexpress.com/item/1005012293627764.html) |
+| 17 | Flat Ethernet connector | Internal connector, M12 connector to carrier RJ45 port | 1 | [AliExpress](https://www.aliexpress.com/item/1005005257546532.html?algo_exp_id=6e2c1bfa-acc1-43cb-8c84-af66e6a55b85-0&pdp_ext_f=%7B%22order%22%3A%22153%22%2C%22spu_best_type%22%3A%22price%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005005257546532%7C_p_origin_prod%3A) |
 
 ## Hardware
 
 | # | Name | Description | Amount | Link |
 |---|---|---|---|---|
-| 16 | Heatsink for MT7916 | Wakefield 559-50AB-ND heatsink | 1 | [Wakefield 559-50AB](https://www.digikey.com/en/products/detail/wakefield-thermal-solutions/559-50ab/5068188) |
-| 16 | M2.5 screws | TODO: length and head type | 4 | TODO |
-| 17 | M3 screws | TODO: length and head type | 16 | TODO |
-| 18 | M3 nuts | TODO: standard hex or nyloc | 2 | TODO |
-| 19 | M2.5 heat-set inserts | TODO: | 4 | TODO |
-| 20 | M3 heat-set inserts | TODO: | 16 | TODO |
+| 18 | Heatsink for MT7916 | Wakefield 559-50AB-ND heatsink | 1 | [Wakefield 559-50AB](https://www.digikey.com/en/products/detail/wakefield-thermal-solutions/559-50ab/5068188) |
+| 19 | M2.5 screws | Hex M2.5x7mm | 4 | TODO |
+| 20 | M3 screws, back plate| Allen, M3x6mm | 6 | [Link](N/A) |
+| 21 | M3 screws, front plate | Allen, M3x8mm | 6 | [Link](N/A) |
+| 22 | M3 screws, top I/O plate | Allen, M3x12mm | 4 | [Link](N/A)
+| 23 | M3 nuts | TODO: standard hex or nyloc | 2 | [Link](N/A) |
+| 24 | M2.5 heat-set inserts | M2.5\*4\*3.5mm Heat-set inserts for mounting the CM4 carrier board | 4 | [Link](N/A) |
+| 25 | M3 heat-set inserts | M3\*4\*4mm Heat-set inserts for mounting the front, back and top plates to the enclosure | 16 | [Link](N/A) |
+
+## Misc
+| 26 | Diamant Dichtol AM Hydro | Polimer sealant for additive manufacturing | 1 | [Diamant Dichtol AM Hydro](https://diamant-polymer.de/en/industry/3d-printing-additive-manufacturing/impregnating-and-sealing/make-3d-print-waterproof) |
 
 ## Notes
 

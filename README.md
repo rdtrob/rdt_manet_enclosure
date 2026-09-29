@@ -113,7 +113,7 @@ Recommended settings (adjust for your printer):
 | Nozzle | 0.4 mm |
 
 Notes:
-- Avoid PLA for field units: it softens in direct sun and in a warm vehicle.
+- Avoid PLA for field units: it softens in direct sunlight and in a warm vehicle.
 - Print the body with the bottom side up ( battery connector facing upwards ) or front-facing open side up for the cleanest sealing surface.
 - Test-fit the SMA bulkheads and M12 connector before final assembly; hole tolerances vary between printers.
 - For waterproof-sealing, treat all printed components with a polimer sealant like Diamant's Dichtol AM Hydro (Note: link provided in **[BOM.md](BOM.md)**)
