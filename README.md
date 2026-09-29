@@ -43,7 +43,7 @@ and exposes three SMA antenna ports for the MT7916, one SMA port for the HaLow r
 ## Features
 
 - Fully 3D-printable body, no custom PCBs required
-- 3× SMA bulkhead mounts for 2.4 / 5 / 6 GHz MIMO antennas (Note: see reference to antenna positioning in #Overview section above, subsection MT7916)
+- 3× SMA bulkhead mounts for 2.4 / 5 / 6 GHz MIMO antennas (Note: see reference to antenna positioning in [overview](#overview) section above, subsection MT7916)
 - 1× SMA bulkhead mount for the sub-GHz HaLow antenna
 - Waterproof panel-mount USB-C for access to the carrier board
 - M12 connector for ruggedized wired Ethernet
