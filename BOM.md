@@ -21,8 +21,8 @@ Links are provided for reference only; equivalent parts from other suppliers sho
 |---|---|---|---|---|
 | 7 | SMA antenna | 2.4 / 5 / 6 GHz antenna for the MT7916 board | 3 | [Farnell](https://www.newark.com/siretta/delta47-smam-36/rf-antenna-600mhz-5-6ghz/dp/97AK2184) |
 | 8 | SMA antenna (HaLow) | 868 MHz SMA antenna for the Lunpid MM8108 HaLow board | 1 | [Hexaspot 868MHz gooseneck antenna](https://hexaspot.com/products/hexaspot-tactical-gooseneck-antenna-868mhz?variant=57776200810827) |
-| 9 | IPEX MHF 1 - SMA female cable assembly for MT7916 board | 3 | [TME](https://www.tme.eu/en/details/ipex-sma-150/coaxial-assemblies/onteck)
-| 10 | SMA male to SMA female adapter for the MM8108 HaLow board antenna | 1 | [AliExpress](https://www.aliexpress.com/item/1005003433705318.html) |
+| 9 | SMA cable, 2.4/5GHz | IPEX MHF 1 - SMA female cable assembly for MT7916 board | 3 | [TME](https://www.tme.eu/en/details/ipex-sma-150/coaxial-assemblies/onteck)
+| 10 | SMA cable, sub 1GHz | Ccable for SMA male to SMA female adapter for the MM8108 HaLow board antenna | 1 | [AliExpress](https://www.aliexpress.com/item/1005003433705318.html) |
 
 ## Connectors and Cables
 
@@ -42,15 +42,17 @@ Links are provided for reference only; equivalent parts from other suppliers sho
 | # | Name | Description | Amount | Link |
 |---|---|---|---|---|
 | 18 | Heatsink for MT7916 | Wakefield 559-50AB-ND heatsink | 1 | [Wakefield 559-50AB](https://www.digikey.com/en/products/detail/wakefield-thermal-solutions/559-50ab/5068188) |
-| 19 | M2.5 screws | Hex M2.5x7mm | 4 | TODO |
-| 20 | M3 screws, back plate| Allen, M3x6mm | 6 | [Link](N/A) |
-| 21 | M3 screws, front plate | Allen, M3x8mm | 6 | [Link](N/A) |
-| 22 | M3 screws, top I/O plate | Allen, M3x12mm | 4 | [Link](N/A)
-| 23 | M3 nuts | TODO: standard hex or nyloc | 2 | [Link](N/A) |
-| 24 | M2.5 heat-set inserts | M2.5\*4\*3.5mm Heat-set inserts for mounting the CM4 carrier board | 4 | [Link](N/A) |
-| 25 | M3 heat-set inserts | M3\*4\*4mm Heat-set inserts for mounting the front, back and top plates to the enclosure | 16 | [Link](N/A) |
+| 19 | M2.5 screws | Hex M2.5x7mm | 4 | N/A |
+| 20 | M3 screws, back plate| Allen, M3x6mm | 6 | N/A |
+| 21 | M3 screws, front plate | Allen, M3x8mm | 6 | N/A |
+| 22 | M3 screws, top I/O plate | Allen, M3x12mm | 4 | N/A
+| 23 | M3 nuts | TODO: standard hex or nyloc | 2 | N/A |
+| 24 | M2.5 heat-set inserts | M2.5\*4\*3.5mm Heat-set inserts for mounting the CM4 carrier board | 4 | N/A |
+| 25 | M3 heat-set inserts | M3\*4\*4mm Heat-set inserts for mounting the front, back and top plates to the enclosure | 16 | N/A |
 
 ## Misc
+| # | Name | Description | Amount | Link |
+|---|---|---|---|---|
 | 26 | Diamant Dichtol AM Hydro | Polimer sealant for additive manufacturing | 1 | [Diamant Dichtol AM Hydro](https://diamant-polymer.de/en/industry/3d-printing-additive-manufacturing/impregnating-and-sealing/make-3d-print-waterproof) |
 
 ## Notes
