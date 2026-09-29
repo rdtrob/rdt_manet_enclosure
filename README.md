@@ -4,8 +4,8 @@ A 3D-printable, weather-resistant and waterproof enclosure for a portable mesh r
 
 The enclosure was designed for the [very-srs/MANET](https://github.com/very-srs/MANET) project, and it also fits hardware deployments of [OpenMANET](https://github.com/openmanet).
 
-<!-- TODO: add a photo of the assembled unit -->
-<!-- ![Assembled enclosure](images/assembled.jpg) -->
+![Assembled enclosure and battery](images/5.jpg?raw=true)
+![Plate carrier presentation](images/2.jpg)
 
 ---
 
