@@ -43,10 +43,10 @@ Links are provided for reference only; equivalent parts from other suppliers sho
 |---|---|---|---|---|
 | 18 | Heatsink for MT7916 | Wakefield 559-50AB-ND heatsink | 1 | [Wakefield 559-50AB](https://www.digikey.com/en/products/detail/wakefield-thermal-solutions/559-50ab/5068188) |
 | 19 | M2.5 screws | Hex M2.5x7mm | 4 | N/A |
-| 20 | M3 screws, back plate| Allen, M3x6mm | 6 | N/A |
-| 21 | M3 screws, front plate | Allen, M3x8mm | 6 | N/A |
-| 22 | M3 screws, top I/O plate | Allen, M3x12mm | 4 | N/A
-| 23 | M3 nuts | TODO: standard hex or nyloc | 2 | N/A |
+| 20 | M3 screws, back plate| Hex, M3x6mm | 6 | N/A |
+| 21 | M3 screws, front plate | Hex, M3x8mm | 6 | N/A |
+| 22 | M3 screws, top I/O plate | Hex, M3x12mm | 4 | N/A
+| 23 | M3 nuts | Standard Hex, mounting the grounding bar | 2 | N/A |
 | 24 | M2.5 heat-set inserts | M2.5\*4\*3.5mm Heat-set inserts for mounting the CM4 carrier board | 4 | N/A |
 | 25 | M3 heat-set inserts | M3\*4\*4mm Heat-set inserts for mounting the front, back and top plates to the enclosure | 16 | N/A |
 
@@ -54,10 +54,11 @@ Links are provided for reference only; equivalent parts from other suppliers sho
 | # | Name | Description | Amount | Link |
 |---|---|---|---|---|
 | 26 | Diamant Dichtol AM Hydro | Polimer sealant for additive manufacturing | 1 | [Diamant Dichtol AM Hydro](https://diamant-polymer.de/en/industry/3d-printing-additive-manufacturing/impregnating-and-sealing/make-3d-print-waterproof) |
+| 27 | Grounding bar and wings assembly | Mesh node side of the twist-lock assembly | 1* | * - Check [Notes](#notes)
 
 ## Notes
 
 - Quantities are for **one** unit.
 - Confirm antenna connector gender (SMA vs RP-SMA) matches your bulkheads before ordering.
 - If purchasing a different buck board model, check the input voltage range against your power source.
-- SupplyNet provides both the wings and grounding bar for sale. If sourcing isn't available, models for the components can be found [here](https://www.thesupplynet.com/Attachment/DownloadFile?downloadId=779) and [here](https://www.thesupplynet.com/Attachment/DownloadFile?downloadId=83) for FDM printing or CNC machining.
+- SupplyNet provides both the wings and grounding bar for sale. If sourcing isn't available, models for both components can be found [here](https://www.thesupplynet.com/Attachment/DownloadFile?downloadId=779) and [here](https://www.thesupplynet.com/Attachment/DownloadFile?downloadId=83) for FDM printing or CNC machining.
