@@ -54,11 +54,11 @@ Links are provided for reference only; equivalent parts from other suppliers sho
 | # | Name | Description | Amount | Link |
 |---|---|---|---|---|
 | 26 | Diamant Dichtol AM Hydro | Polimer sealant for additive manufacturing | 1 | [Diamant Dichtol AM Hydro](https://diamant-polymer.de/en/industry/3d-printing-additive-manufacturing/impregnating-and-sealing/make-3d-print-waterproof) |
-| 27 | Grounding bar and wings assembly | Mesh node side of the twist-lock assembly | 1* | * - Check [Notes](#notes)
+| 27 | Grounding bar and wings assembly | Mesh node side of the twist-lock assembly | 1(each) | * - Check [Notes](#notes)
 
 ## Notes
 
 - Quantities are for **one** unit.
 - Confirm antenna connector gender (SMA vs RP-SMA) matches your bulkheads before ordering.
 - If purchasing a different buck board model, check the input voltage range against your power source.
-- SupplyNet provides both the wings and grounding bar for sale. If sourcing isn't available, models for both components can be found [here](https://www.thesupplynet.com/Attachment/DownloadFile?downloadId=779) and [here](https://www.thesupplynet.com/Attachment/DownloadFile?downloadId=83) for FDM printing or CNC machining.
+- SupplyNet provides both the wings and grounding bar for sale. If sourcing isn't available, models for both components can be found [here(1x GND bar)](https://www.thesupplynet.com/Attachment/DownloadFile?downloadId=779) and [here(left and right wings, one of each)](https://www.thesupplynet.com/Attachment/DownloadFile?downloadId=83) for FDM printing or CNC machining.
