@@ -7,6 +7,8 @@ The enclosure was designed for the [very-srs/MANET](https://github.com/very-srs/
 ![Plate carrier presentation](images/2.jpg)
 ![Assembled enclosure and battery](images/5.jpg?raw=true)
 
+More images can be found in [images](images/).
+
 ---
 
 ## Table of Contents
@@ -33,10 +35,10 @@ The enclosure was designed for the [very-srs/MANET](https://github.com/very-srs/
 
 This repository contains the printable parts (STL) for a self-contained MANET radio node. The enclosure houses:
 
-- a **Raspberry Pi CM4** on a **Waveshare Mini Base Board (A)** carrier,
-- an **MT7916 Wi-Fi 6E M.2 A/E-key card**, mounted in the carrier's M.2 M-key slot through an **M.2 M-key → A/E-key adapter (Note: Only two of the three antennas send, specifically 1 and 2, the ones on the short end of the MT7916 board. The 3rd is only receiving on 5GHz in 2T3R mode.)**,
-- a **Lunpid Morse Micro MM8108 Wi-Fi HaLow** board connected over USB-C,
-- a **Pololu D36V28F5** 5 V step-down regulator,
+- **Raspberry Pi CM4** on a **Waveshare Mini Base Board (A)** carrier,
+- **MT7916 Wi-Fi 6E M.2 A/E-key card**, mounted in the carrier's M.2 M-key slot through an **M.2 M-key → A/E-key adapter (Note: Only two of the three antennas send, specifically 1 and 2, the ones on the short end of the MT7916 board. The 3rd is only receiving on 5GHz in 2T3R mode.)**,
+- **Lunpid Morse Micro MM8108 Wi-Fi HaLow** board connected over USB-C,
+- **Pololu D36V28F5** 5 V step-down regulator,
 
 and exposes three SMA antenna ports for the MT7916, one SMA port for the HaLow radio, a waterproof USB-C port, an M12 connector to internal Ethernet port and a magnetic pogo-pin power input.
 
@@ -115,6 +117,7 @@ Recommended settings (adjust for your printer):
 Notes:
 - Avoid PLA for field units: it softens in direct sunlight and in a warm vehicle.
 - Print the body with the bottom side up ( battery connector facing upwards ) or front-facing open side up for the cleanest sealing surface.
+- Print with supports. Yes, there's some filament loss in support material on the BackPanel and TopConnectorPlate designs but the prints come out clean, with minimal to no retouching required.
 - Test-fit the SMA bulkheads and M12 connector before final assembly; hole tolerances vary between printers.
 - For waterproof-sealing, treat all printed components with a polimer sealant like Diamant's Dichtol AM Hydro (Note: link provided in **[BOM.md](BOM.md)**)
 

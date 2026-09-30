@@ -61,4 +61,4 @@ Links are provided for reference only; equivalent parts from other suppliers sho
 - Quantities are for **one** unit.
 - Confirm antenna connector gender (SMA vs RP-SMA) matches your bulkheads before ordering.
 - If purchasing a different buck board model, check the input voltage range against your power source.
-- SupplyNet provides both the wings and grounding bar for sale. If sourcing isn't available, models for both components can be found [here(1x GND bar)](https://www.thesupplynet.com/Attachment/DownloadFile?downloadId=779) and [here(left and right wings, one of each)](https://www.thesupplynet.com/Attachment/DownloadFile?downloadId=83) for FDM printing or CNC machining.
+- SupplyNet provides both the wings and grounding bar for sale. If sourcing isn't available, models for both components can be found [here( 1x GND bar )](https://www.thesupplynet.com/Attachment/DownloadFile?downloadId=779) and [here( left and right wings, one of each )](https://www.thesupplynet.com/Attachment/DownloadFile?downloadId=83) for FDM printing or CNC machining.
