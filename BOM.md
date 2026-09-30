@@ -41,7 +41,7 @@ Links are provided for reference only; equivalent parts from other suppliers sho
 
 | # | Name | Description | Amount | Link |
 |---|---|---|---|---|
-| 18 | Heatsink for MT7916 | Wakefield 559-50AB-ND heatsink | 1 | [Wakefield 559-50AB](https://www.digikey.com/en/products/detail/wakefield-thermal-solutions/559-50ab/5068188) |
+| 18 | Heatsink for MT7916 | Wakefield 559-50AB-ND heatsink | 1 | [Wakefield 559-50AB](https://www.digikey.com/en/products/detail/wakefield-thermal-solutions/559-50ab/5068188)* |
 | 19 | M2.5 screws | Hex M2.5x7mm | 4 | N/A |
 | 20 | M3 screws, back plate| Hex, M3x6mm | 6 | N/A |
 | 21 | M3 screws, front plate | Hex, M3x8mm | 6 | N/A |
@@ -54,11 +54,12 @@ Links are provided for reference only; equivalent parts from other suppliers sho
 | # | Name | Description | Amount | Link |
 |---|---|---|---|---|
 | 26 | Diamant Dichtol AM Hydro | Polimer sealant for additive manufacturing | 1 | [Diamant Dichtol AM Hydro](https://diamant-polymer.de/en/industry/3d-printing-additive-manufacturing/impregnating-and-sealing/make-3d-print-waterproof) |
-| 27 | Grounding bar and wings assembly | Mesh node side of the twist-lock assembly | 1(each) | * - Check [Notes](#notes)
+| 27 | Grounding bar and wings assembly | Mesh node side of the twist-lock assembly | 1(each) | ** - Check [Notes](#notes)
 
 ## Notes
 
 - Quantities are for **one** unit.
 - Confirm antenna connector gender (SMA vs RP-SMA) matches your bulkheads before ordering.
 - If purchasing a different buck board model, check the input voltage range against your power source.
-- SupplyNet provides both the wings and grounding bar for sale. If sourcing isn't available, models for both components can be found [here( 1x GND bar )](https://www.thesupplynet.com/Attachment/DownloadFile?downloadId=779) and [here( left and right wings, one of each )](https://www.thesupplynet.com/Attachment/DownloadFile?downloadId=83) for FDM printing or CNC machining.
+- \* If the thermal transfer isn't required and a completely FDM enclosure is wanted instead, the 3D model for the Wakefield Heatsink can be found here [Mouser](https://www.mouser.com/en/ProductDetail/Wakefield-Thermal/559-50AB?qs=VVKQmw408U%2FzLU2RRgxl5w%3D%3D&srsltid=AU7gw4WtbKbhFMcUo9UWDCJgB4I2Z_o8VJbyoj4c9TPOvle3_xEl1ChP)
+- \*\* SupplyNet provides both the wings and grounding bar for sale. If sourcing isn't available, models for both components can be found [here( 1x GND bar )](https://www.thesupplynet.com/Attachment/DownloadFile?downloadId=779) and [here( left and right wings, one of each )](https://www.thesupplynet.com/Attachment/DownloadFile?downloadId=83) for FDM printing or CNC machining.
