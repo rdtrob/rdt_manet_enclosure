@@ -36,27 +36,27 @@ Links are provided for reference only; equivalent parts from other suppliers sho
 | 15 | Ribbon cable for USB-C snap connector | Short cable, carrier board to Lunpid MM8108 HaLow USB-C snap connector | 1 | [AliExpress](https://www.aliexpress.com/item/1005008383845058.html) |
 | 16 | M12 connector | Panel-mount M12 connector for Ethernet. Pick Male Back M12-P-GCFM-16-NZG 8Pin variant. | 1 | [AliExpress](https://www.aliexpress.com/item/1005012293627764.html) |
 | 17 | Flat Ethernet connector | Internal connector, M12 connector to carrier RJ45 port | 1 | [AliExpress](https://www.aliexpress.com/item/1005005257546532.html?algo_exp_id=6e2c1bfa-acc1-43cb-8c84-af66e6a55b85-0&pdp_ext_f=%7B%22order%22%3A%22153%22%2C%22spu_best_type%22%3A%22price%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005005257546532%7C_p_origin_prod%3A) |
+| 18 | USB adapter | USB-A to USB-C(female) adapter for external USB-C connector to be plugged into the carrier board | 1 | [AliExpress](https://www.aliexpress.com/item/1005009180629876.html?algo_exp_id=fdf4b196-8052-4d7c-8590-30fd222931ef-56&pdp_ext_f=%7B%22order%22%3A%229%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005009180629876%7C_p_origin_prod%3A) |
 
 ## Hardware
 
 | # | Name | Description | Amount | Link |
 |---|---|---|---|---|
-| 18 | Heatsink for MT7916 | Wakefield 559-50AB-ND heatsink | 1 | [Wakefield 559-50AB](https://www.digikey.com/en/products/detail/wakefield-thermal-solutions/559-50ab/5068188)* |
-| 19 | M2.5 screws | Hex M2.5x7mm | 4 | N/A |
-| 20 | M3 screws, back plate | Hex M3x6mm, mounting the back plate | 6 | N/A |
-| 21 | M3 screws, front plate | Hex M3x8mm, mounting the front Heatsink | 6 | N/A |
-| 22 | M3 screws, top I/O plate | Hex M3x12mm, mounting the top I/O plate | 4 | N/A
-| 23 | M3 nuts | Standard Hex, mounting the grounding bar, Pogo PIN TPU gasket and mounting plate | 2 | N/A |
-| 24 | M2.5 heat-set inserts | M2.5\*4\*3.5mm Heat-set inserts, mounting the CM4 carrier board | 4 | N/A |
-| 25 | M3 heat-set inserts | M3\*4\*4mm Heat-set inserts for mounting the front, back and top plates to the enclosure | 16 | N/A |
+| 19 | Heatsink for MT7916 | Wakefield 559-50AB-ND heatsink | 1 | [Wakefield 559-50AB](https://www.digikey.com/en/products/detail/wakefield-thermal-solutions/559-50ab/5068188)* |
+| 20 | M2.5 screws | Hex M2.5x7mm | 4 | N/A |
+| 21 | M3 screws, back plate | Hex M3x6mm, mounting the back plate | 6 | N/A |
+| 22 | M3 screws, front plate | Hex M3x8mm, mounting the front Heatsink | 6 | N/A |
+| 23 | M3 screws, top I/O plate | Hex M3x12mm, mounting the top I/O plate | 4 | N/A
+| 24 | M3 nuts | Standard Hex, mounting the grounding bar, Pogo PIN TPU gasket and mounting plate | 2 | N/A |
+| 25 | M2.5 heat-set inserts | M2.5\*4\*3.5mm Heat-set inserts, mounting the CM4 carrier board | 4 | N/A |
+| 26 | M3 heat-set inserts | M3\*4\*4mm Heat-set inserts for mounting the front, back and top plates to the enclosure | 16 | N/A |
 
 ## Misc
 | # | Name | Description | Amount | Link |
 |---|---|---|---|---|
-| 26 | Diamant Dichtol AM Hydro | Polimer sealant for additive manufacturing | 1 | [Diamant Dichtol AM Hydro](https://diamant-polymer.de/en/industry/3d-printing-additive-manufacturing/impregnating-and-sealing/make-3d-print-waterproof) |
-| 27 | Grounding bar and wings assembly | Mesh node side of the twist-lock assembly | 1(each) | ** - Check [Notes](#notes)
-| 28 | Rubber seal | 2mm cylindrical rubber seal, pressed in under-heatsink groove to prevent water and dust from seeping in | 1 | [AliExpress](https://www.aliexpress.com/item/1005011949296931.html) |
-| 29 | USB adapter | USB-A to USB-C(female) adapter for external USB-C connector to be plugged into the carrier board | 1 | [AliExpress](https://www.aliexpress.com/item/1005009180629876.html?algo_exp_id=fdf4b196-8052-4d7c-8590-30fd222931ef-56&pdp_ext_f=%7B%22order%22%3A%229%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005009180629876%7C_p_origin_prod%3A) |
+| 27 | Diamant Dichtol AM Hydro | Polimer sealant for additive manufacturing | 1 | [Diamant Dichtol AM Hydro](https://diamant-polymer.de/en/industry/3d-printing-additive-manufacturing/impregnating-and-sealing/make-3d-print-waterproof) |
+| 28 | Grounding bar and wings assembly | Mesh node side of the twist-lock assembly | 1(each) | ** - Check [Notes](#notes)
+| 29 | Rubber seal | 2mm cylindrical rubber seal, pressed in under-heatsink groove to prevent water and dust from seeping in | 1 | [AliExpress](https://www.aliexpress.com/item/1005011949296931.html) |
 
 ## Notes
 
