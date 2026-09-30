@@ -2,7 +2,7 @@
 
 A 3D-printable, weather-resistant and waterproof enclosure for a portable mesh radio node built around the Raspberry Pi Compute Module 4, Waveshare Mini Base Board (A), MediaTek MT7916 Wi-Fi 6E card and a Morse Micro MM8108 Wi-Fi HaLow board.
 
-The enclosure was designed for the [very-srs/MANET](https://github.com/very-srs/MANET) project, and it also fits hardware deployments of [OpenMANET](https://github.com/openmanet).
+The enclosure was designed for the [very-srs/MANET](https://github.com/very-srs/MANET) project (on the Waveshare CM4 carrier board), but it should also fit hardware deployments of [OpenMANET](https://github.com/openmanet) (Raspberry Pi 4/5) with minimal to no required modifications.
 
 ![Plate carrier presentation](images/2.jpg)
 ![Assembled enclosure and battery](images/5.jpg?raw=true)
