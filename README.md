@@ -5,9 +5,9 @@ A 3D-printable, weather-resistant and waterproof enclosure for a portable mesh r
 The enclosure was designed for the [very-srs/MANET](https://github.com/very-srs/MANET) project (on the Waveshare CM4 carrier board), but it should also fit hardware deployments of [OpenMANET](https://github.com/openmanet) (Raspberry Pi 4/5) with minimal to no required modifications.
 
 ![Plate carrier presentation](images/1.jpg)
-![Assembled enclosure and battery](images/4.jpg?raw=true)
+![Assembled enclosure with accessories, next to battery.](images/4.jpg?raw=true)
 
-More images can be found in [images](images/).
+More pictures can be found in [images/](images/)
 
 ---
 
@@ -178,7 +178,7 @@ Issues and pull requests are welcome.
 
 ## License
 
-This project is licensed under the **GNU General Public License v3.0**. See [LICENSE](LICENSE) for the full text.
+This project is licensed under the **GNU General Public License v3.0**. See [LICENSE](LICENSE).
 
 You may use, modify and redistribute these files, including commercially, provided that any distributed derivative is released under the same license and includes its corresponding source files.
 
