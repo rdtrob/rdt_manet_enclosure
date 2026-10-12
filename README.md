@@ -6,8 +6,6 @@ The enclosure was designed for the [very-srs/MANET](https://github.com/very-srs/
 
 ![Plate carrier presentation](images/1.jpg)
 ![Assembled enclosure with accessories, next to battery.](images/4.jpg?raw=true)
-![Components](images/components/components.jpg?raw=true)
-
 More pictures can be found in [images/](images/)
 
 ---
@@ -124,13 +122,13 @@ Notes:
 
 ## Assembly
 
-<!-- TODO: expand with photos per step -->
+![Components](images/components/components.jpg?raw=true)
 
 1. **Prepare the compute stack.** Seat the CM4 on the Waveshare carrier. Install the M.2 M→A/E adapter in the carrier's M.2 slot and fit the MT7916 card to the adapter.
 2. **Attach antenna pigtails.** Connect the three IPEX leads to the MT7916 card before mounting it; access is limited once installed.
 3. **Mount bulkhead connectors.** Install the 3× SMA bulkheads, the HaLow SMA, the waterproof USB-C, the M12 connector and the magnetic pogo-pin connector in the enclosure walls.
 4. **Mount the carrier.** Fix the carrier into the body with M2.5 screws.
-5. **Mount the Pololu regulator** with M3 hardware and wire it: pogo-pin input → Pololu VIN/GND, Pololu 5 V output → USB-C cable → carrier board power input.
+5. **Mount the Pololu regulator** with M2.5 hardware and wire it: pogo-pin input → Pololu VIN/GND, Pololu 5 V output → USB-C cable → carrier board power input.
 6. **Mount the HaLow board** and connect it to the carrier with the short USB-C to USB-C cable. Connect its antenna lead to the HaLow SMA bulkhead.
 7. **Connect Ethernet:** carrier RJ45 → M12 internal cable.
 8. **Close the enclosure** with M3 screws and nuts. Check that no cable is pinched at the lid seam.
@@ -145,7 +143,8 @@ Notes:
 ```
 
 - The D36V28F5 accepts a wide input range and outputs a regulated 5 V. **Check the input limits on the Pololu product page before connecting any source.**
-- Double-check pogo-pin polarity before first power-up. There is no reverse-polarity protection in this design unless you add it. <!-- TODO: confirm -->
+- Double-check pogo-pin polarity before first power-up. There is no reverse-polarity protection on the carruer board in this design(unless you add it).
+- Pololu regulator has reverse voltage protection up to 40V, output under/overvoltage protection, over-current and short-circuit protection. For entire feature-set check: [Pololu D36V28F5](https://www.pololu.com/product/3782)
 - The Waveshare carrier's 5 V input is specified for about 2.5 A. The MT7916 card is the biggest single load; see below.
 
 ## Thermal Notes
