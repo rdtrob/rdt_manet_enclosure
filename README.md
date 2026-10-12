@@ -6,7 +6,7 @@ The enclosure was designed for the [very-srs/MANET](https://github.com/very-srs/
 
 ![Plate carrier presentation](images/1.jpg)
 ![Assembled enclosure with accessories, next to battery.](images/4.jpg?raw=true)
-![Components](images/components.jpg?raw=true)
+![Components](images/components/components.jpg?raw=true)
 
 More pictures can be found in [images/](images/)
 
